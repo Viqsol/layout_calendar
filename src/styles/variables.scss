@@ -5,7 +5,7 @@ $calendar-padding: 10px;
 $day-size: 100px;
 $day-gap: 1px;
 $border-width: 1px;
-$week-width: ($day-size * 7) + ($day-gap * 6) + ($calendar-padding * 2);
+$week-width: ($day-size * 7) + ($day-gap * 6);
 $hovered-move: -20px;
 $start-days: (
   mon: 0,

@@ -46,7 +46,7 @@
 
   @each $day, $offset in $start-days {
     &--start-day-#{$day} .calendar__day:first-child {
-      margin-left: ($day-size + $day-gap) * $offset;
+      margin-left: $day-size * $offset + $day-gap * $offset;
     }
   }
 
